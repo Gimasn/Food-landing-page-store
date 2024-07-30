@@ -1,0 +1,321 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  z-index: 999999999999999;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+.navbar #logo {
+  width: 200px;
+  height: 200px;
+}
+
+.navbar .nav {
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav ul {
+  display: flex;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.navbar .nav ul li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.navbar .nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url('banner1.jpg');
+  background-size: cover;
+  background-position-x: -50px;
+  justify-content: space-between;
+}
+
+#kiri {
+  transform: scaleX(-1);
+  float: left;
+  margin-left: 10px;
+}
+
+
+#kiri, #kanan {
+  width: 80px;
+  margin-top: 400px;
+  padding: 15px 15px;
+background-color: white;
+border-radius: 100px;
+}
+
+#kanan {
+  float: right;
+  margin-right: 10px;
+}
+
+
+#watsap {
+  width: 80px;
+  float: right;
+  margin-top: 550px;
+  padding: 10px 100px 10px 10px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+
+.menu1 {
+  display: flex;
+  justify-content: space-around;
+text-align: center;
+align-content: center;
+padding-top: 50px;
+background-color: #E67817;
+padding-bottom: 50px;
+}
+
+.menu1 img {
+  width: 200px;
+  border-radius: 50px;
+}
+
+
+.container .tit {
+margin-top: 15px;
+  text-align: center;
+}
+
+
+.menu2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 150px;
+  overflow: hidden;
+}
+
+.mn {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+
+
+.menu2 .mn img {
+  width: 200px;
+}
+
+
+#bumbu1 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  bottom: 800px;
+  right: -850px;
+}
+
+
+#bumbu2 {
+width: 300px;
+height: 300px;
+position: relative;
+left: -850px;
+bottom: 250px;
+}
+
+
+#bumbu1,#bumbu2 {
+  z-index: -1;
+  opacity: 0.5;
+}
+
+
+.viewmore {
+  width: 200px;
+  margin: 0px auto;
+}
+
+.viewmore h1 {
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 20px;
+}
+
+
+
+.card {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+
+.card1,.card2 {
+  width: 300px;
+  height: 300px;
+}
+
+
+.card1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('card1.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 30px 200px;
+}
+
+
+
+.card2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('card2.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 30px 200px;
+}
+
+
+.card h1 {
+  margin-top: 80px;
+}
+
+.card p {
+  padding-bottom: 20px;
+}
+
+.card a {
+  border: 2px white solid;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  margin-top: 200px;
+}
+
+
+
+
+input , button {
+  font-size: 30px;
+
+}
+
+input {
+  background-color: white;
+  border: 2px solid white;
+}
+
+label {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 320px;
+}
+
+.emailforum {
+  background-color:#E67817 ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+button {
+  background-color: red;
+  padding: 2px 5px;
+  color: white;
+  border: 2px solid red;
+}
+
+.contact {
+  color: white;
+  padding-top: 50px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imageakhir.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#brand {
+  width: 200px;
+  margin: 0px auto;
+}
+
+#map {
+  width: 30px;
+  filter: invert(100%);
+}
+
+
+.mp {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+.order img {
+  width: 30px;
+  filter: invert(100%);
+}
+
+.order2 img {
+  width: 30px;
+  filter: invert(100%);
+}
+
+
+.order , .order2 {
+  display: flex;
+  justify-content: center;
+  filter: invert(100%);
+}
+
+.n {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  filter: invert(100%);
+  color: white;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+ul li img {
+  width: 40px;
+  filter: invert(100%);
+  padding-bottom: 50px;
+}
+
+
+.contact h1 {
+  padding-top: 20px;
+}
